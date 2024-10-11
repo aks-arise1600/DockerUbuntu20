@@ -1,6 +1,6 @@
 # DockerUbuntu20
 
-Example to build Docker image , Docker Conatainer with shared folder.
+Example to build Docker image that contain base ubuntu 20.04 , Docker Conatainer with shared folder.
 
 
 ## Build and Run
