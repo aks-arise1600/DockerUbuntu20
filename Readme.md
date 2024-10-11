@@ -6,7 +6,7 @@ Example to build Docker image that contain base ubuntu 20.04 , Docker Conatainer
 ## Build and Run
 
 1. build
-		sudo docker build -t custom_image_ubuntu20 .
+		sudo docker build -t custom_image_ubuntu20:v1.0 .
 		
 * verify
 
@@ -14,12 +14,12 @@ Example to build Docker image that contain base ubuntu 20.04 , Docker Conatainer
 		
 2. First run and container set
 
-		sudo docker run -it --name system001 -h system1  custom_image_ubuntu20
+		sudo docker run -it --name system001 -h system1  custom_image_ubuntu20:v1.0
 		
 or share folder
 
 		mkdir share_data
-		sudo docker run -it --name system001 -h system1 -v $(pwd)/share_data:/share_data custom_image_ubuntu20
+		sudo docker run -it --name system001 -h system1 -v $(pwd)/share_data:/share_data custom_image_ubuntu20:v1.0
 		
 * to exit from container type
 		
