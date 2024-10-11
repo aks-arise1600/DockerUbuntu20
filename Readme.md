@@ -6,6 +6,7 @@ Example to build Docker image that contain base ubuntu 20.04 , Docker Conatainer
 ## Build and Run
 
 1. build
+
 		sudo docker build -t custom_image_ubuntu20:v1.0 .
 		
 * verify
